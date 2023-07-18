@@ -124,7 +124,7 @@ class App extends Component {
         .then(response => response.json())
         .then(result => {
             if (result) {
-                      fetch("http://localhost:3001/image",
+                      fetch("https://smartbrain-api-eynl.onrender.com/image",
                                 {
                                     method: "put",
                                     headers: {"Content-Type": "application/json"},
